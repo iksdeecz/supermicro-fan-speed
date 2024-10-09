@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  fan_control:
+    image: iksdee_fan_control_image
+    container_name: fan_control
+    privileged: true   # Give the container necessary permissions
+    volumes:
+      - /dev/ipmi0:/dev/ipmi0  # Mount the IPMI device from the host
+      - /dev/ipmi1:/dev/ipmi1
+    restart: unless-stopped   # Ensure the container restarts on failure or host reboot
