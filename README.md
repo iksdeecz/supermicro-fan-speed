@@ -6,3 +6,8 @@ Steps:
 2. Download script and customize it to your needs
 3. Set fans in IPMI webui to FULL SPEED !!!IMPORTANT!!!
 4. Set cron
+
+ALPHA - added 09.10.2024
+- Dockerfile to build container with ipmitool
+- Dockercompose file
+- Build command: #docker build -t iksdee_fan_control_image .
