@@ -1,4 +1,4 @@
-# supermicro-fan-speed
+# FanControlX aka supermicro-fan-speed
 A script for Supermicro X11 motherboards that set fan speed according to time
 
 Steps:
