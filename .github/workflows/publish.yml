@@ -34,7 +34,7 @@ jobs:
           push: true  # Push the image to the registry
           tags: ghcr.io/iksdeecz/fancontrolx:latest  # Name and tag the image
 
-      # Step 5: (Optional) Verify the image was successfully published
+      # Step 5: Verify the image was successfully published
       - name: Verify Docker Image
         run: |
-          docker pull ghcr.io/Iksdeecz/fancontrolx:latest
+          docker pull ghcr.io/iksdeecz/fancontrolx:latest
