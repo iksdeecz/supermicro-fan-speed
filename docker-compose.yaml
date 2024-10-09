@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   fan_control:
-    image: FanControlX
+    image: ghcr.io/iksdeecz/fancontrolx:latest
     container_name: fan_control
     privileged: true   # Give the container necessary permissions
     volumes:
