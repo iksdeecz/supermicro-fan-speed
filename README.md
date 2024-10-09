@@ -10,4 +10,4 @@ Steps:
 ALPHA - added 09.10.2024
 - Dockerfile to build container with ipmitool
 - Dockercompose file
-- Build command: #docker build -t iksdee_fan_control_image .
+- Build command: #docker build -t FanControlX  .
